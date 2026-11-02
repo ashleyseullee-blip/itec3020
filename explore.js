@@ -80,17 +80,17 @@
 
             //objects
             //cities
-            let tokio = {name: "tokio", cost: 5000, country: "japan", continent: "asia", keywords: " ", isFavorite: false};
-            tokio.keywords = createKeyword(tokio);
+            let tokyo = {name: "tokyo", cost: 5000, country: "japan", continent: "asia", keywords: " ", isFavorite: false};
+            tokyo.keywords = createKeyword(tokyo);
             let osaka = {name: "osaka", cost: 5000, country: "japan", continent: "asia", keywords: " ", isFavorite: false};
             osaka.keywords = createKeyword(osaka);
-            let seul = {name: "seul", cost: 5000, country: "south korea", continent: "asia", keywords: " ", isFavorite: false};
-            seul.keywords = createKeyword(seul);
+            let seoul = {name: "seoul", cost: 5000, country: "south korea", continent: "asia", keywords: " ", isFavorite: false};
+            seoul.keywords = createKeyword(seoul);
             let busan = {name: "busan", cost: 5000, country: "south korea", continent: "asia", keywords: " ", isFavorite: false};
             busan.keywords = createKeyword(busan);
 
             //allcities
-            const cities = [tokio, osaka, seul, busan];
+            const cities = [tokyo, osaka, seoul, busan];
             
             //testing
 
